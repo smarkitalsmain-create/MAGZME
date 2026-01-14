@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Caveat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 340 30% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 340 30% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 340 30% 15%;
+
+    --primary: 330 85% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 350 100% 88%;
+    --secondary-foreground: 330 85% 40%;
+
+    --muted: 350 40% 96%;
+    --muted-foreground: 340 20% 45%;
+
+    --accent: 155 70% 65%;
+    --accent-foreground: 155 80% 20%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 350 30% 90%;
+    --input: 350 30% 90%;
+    --ring: 330 85% 60%;
+
+    --radius: 1rem;
+
+    /* Custom MagzMe colors */
+    --hot-pink: 330 85% 60%;
+    --baby-pink: 350 100% 88%;
+    --mint-green: 155 70% 65%;
+    --sky-blue: 195 85% 70%;
+    --cream: 40 40% 95%;
+    --soft-peach: 20 80% 92%;
+
+    /* Gradients */
+    --gradient-pink: linear-gradient(135deg, hsl(330 85% 60%) 0%, hsl(350 100% 75%) 100%);
+    --gradient-blue: linear-gradient(135deg, hsl(195 85% 70%) 0%, hsl(210 90% 80%) 100%);
+    --gradient-green: linear-gradient(135deg, hsl(155 70% 65%) 0%, hsl(165 75% 75%) 100%);
+    --gradient-sunset: linear-gradient(135deg, hsl(330 85% 60%) 0%, hsl(20 90% 70%) 100%);
+
+    /* Shadows */
+    --shadow-pop: 4px 4px 0px hsl(330 85% 50%);
+    --shadow-soft: 0 8px 30px -10px hsl(330 60% 60% / 0.3);
+    --shadow-card: 0 10px 40px -15px hsl(330 60% 60% / 0.2);
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 340 30% 8%;
+    --foreground: 350 40% 96%;
+
+    --card: 340 25% 12%;
+    --card-foreground: 350 40% 96%;
+
+    --popover: 340 25% 12%;
+    --popover-foreground: 350 40% 96%;
+
+    --primary: 330 85% 65%;
+    --primary-foreground: 340 30% 10%;
+
+    --secondary: 340 30% 18%;
+    --secondary-foreground: 350 100% 88%;
+
+    --muted: 340 25% 18%;
+    --muted-foreground: 350 30% 65%;
+
+    --accent: 155 60% 50%;
+    --accent-foreground: 155 80% 95%;
+
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 340 25% 20%;
+    --input: 340 25% 20%;
+    --ring: 330 85% 65%;
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body;
+  }
+}
+
+@layer components {
+  .font-display {
+    font-family: 'Fredoka', sans-serif;
+  }
+
+  .font-handwritten {
+    font-family: 'Caveat', cursive;
+  }
+
+  .font-body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .grid-pattern {
+    background-image: 
+      linear-gradient(hsl(var(--hot-pink) / 0.1) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(var(--hot-pink) / 0.1) 1px, transparent 1px);
+    background-size: 30px 30px;
+  }
+
+  .grid-pattern-blue {
+    background-image: 
+      linear-gradient(hsl(var(--sky-blue) / 0.15) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(var(--sky-blue) / 0.15) 1px, transparent 1px);
+    background-size: 30px 30px;
+  }
+
+  .sticker {
+    @apply transition-all duration-300 ease-out;
+  }
+
+  .sticker:hover {
+    @apply scale-110 rotate-3;
+  }
+
+  .pop-shadow {
+    box-shadow: 4px 4px 0px hsl(var(--hot-pink));
+  }
+
+  .pop-shadow-green {
+    box-shadow: 4px 4px 0px hsl(var(--mint-green));
+  }
+
+  .pop-shadow-blue {
+    box-shadow: 4px 4px 0px hsl(var(--sky-blue));
+  }
+
+  .card-pop {
+    @apply transition-all duration-300 ease-out;
+  }
+
+  .card-pop:hover {
+    @apply -translate-y-2;
+    box-shadow: 6px 6px 0px hsl(var(--hot-pink));
+  }
+
+  .btn-primary {
+    @apply bg-primary text-primary-foreground font-display font-semibold px-6 py-3 rounded-full 
+           transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-lg;
+  }
+
+  .btn-outline-white {
+    @apply bg-transparent border-2 border-white text-white font-display font-semibold px-6 py-3 rounded-full 
+           transition-all duration-300 ease-out hover:bg-white hover:text-primary;
+  }
+
+  .section-heading {
+    @apply font-display text-4xl md:text-5xl font-bold;
+  }
+}
+
+@layer utilities {
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+      transform: translateY(-10px) rotate(3deg);
+    }
+  }
+
+  @keyframes wiggle {
+    0%, 100% {
+      transform: rotate(-3deg);
+    }
+    50% {
+      transform: rotate(3deg);
+    }
+  }
+
+  @keyframes pop-in {
+    0% {
+      transform: scale(0.8);
+      opacity: 0;
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slide-up {
+    0% {
+      transform: translateY(30px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes bounce-gentle {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+  }
+
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .animate-float-delayed {
+    animation: float 3s ease-in-out infinite 0.5s;
+  }
+
+  .animate-float-slow {
+    animation: float 4s ease-in-out infinite 1s;
+  }
+
+  .animate-wiggle {
+    animation: wiggle 0.5s ease-in-out infinite;
+  }
+
+  .animate-pop-in {
+    animation: pop-in 0.6s ease-out forwards;
+  }
+
+  .animate-slide-up {
+    animation: slide-up 0.6s ease-out forwards;
+  }
+
+  .animate-bounce-gentle {
+    animation: bounce-gentle 2s ease-in-out infinite;
+  }
+
+  .hover-wiggle:hover {
+    animation: wiggle 0.3s ease-in-out;
+  }
+}
