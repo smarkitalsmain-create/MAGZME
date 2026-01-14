@@ -18,7 +18,8 @@ const corporateProducts = [
     price: "₹899",
     bulkPrice: "₹699/piece",
     minOrder: 25,
-    image: "https://images.unsplash.com/photo-544716278-ca5e3f4abd8c?w=400&h=400&fit=crop"
+    image: "/products/magazine1.jpg",
+      
   },
   {
     id: "custom-calendar",
@@ -26,7 +27,8 @@ const corporateProducts = [
     price: "₹549",
     bulkPrice: "₹399/piece",
     minOrder: 50,
-    image: "https://images.unsplash.com/photo-506784926709-22f1ec395907?w=400&h=400&fit=crop"
+    image: "/products/c1.jpg",
+      
   },
   {
     id: "photo-memory-box",
@@ -34,7 +36,7 @@ const corporateProducts = [
     price: "₹799",
     bulkPrice: "₹599/piece",
     minOrder: 20,
-    image: "https://images.unsplash.com/photo-513201099705-a9746e1e201f?w=400&h=400&fit=crop"
+    image: "/products/c2.jpg",
   },
   {
     id: "polaroid-gift-set",
@@ -42,11 +44,43 @@ const corporateProducts = [
     price: "₹649",
     bulkPrice: "₹449/piece",
     minOrder: 30,
-    image: "https://images.unsplash.com/photo-526170375885-4d8ecf77b99f?w=400&h=400&fit=crop"
+    image: "/products/c3.jpg",
+  },
+  {
+    id: "polaroid-gift-set",
+    name: "Polaroid Gift Set",
+    price: "₹649",
+    bulkPrice: "₹449/piece",
+    minOrder: 30,
+    image: "/products/c4.jpeg",
+  },
+  {
+    id: "polaroid-gift-set",
+    name: "Polaroid Gift Set",
+    price: "₹649",
+    bulkPrice: "₹449/piece",
+    minOrder: 30,
+    image: "/products/c4.jpeg",
+  },
+  {
+    id: "polaroid-gift-set",
+    name: "Polaroid Gift Set",
+    price: "₹649",
+    bulkPrice: "₹449/piece",
+    minOrder: 30,
+    image: "/products/c5.jpeg",
+  },
+  {
+    id: "polaroid-gift-set",
+    name: "Polaroid Gift Set",
+    price: "₹649",
+    bulkPrice: "₹449/piece",
+    minOrder: 30,
+    image: "/products/c6.jpeg",
   }
 ];
 
-const comboPackages = [
+/*const comboPackages = [
   {
     name: "Employee Appreciation Combo",
     items: ["Personalized Magazine", "Flower Memory Cards", "Custom Calendar"],
@@ -72,7 +106,7 @@ const comboPackages = [
     icon: Package
   }
 ];
-
+*/ 
 const howToOrderSteps = [
   {
     step: 1,

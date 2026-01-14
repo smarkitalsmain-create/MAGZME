@@ -92,8 +92,8 @@ export const products: Product[] = [
       "Hidden message compartment"
     ],
     images: [
-     "/products/magazine1.jpg",
-      "/products/magazine2.jpg",
+     "/products/bachmagz.jpeg",
+      "/products/bday magz.jpeg",
     ],
     occasion: ["Birthday", "Anniversary", "Wedding", "Farewell"]
   },
@@ -206,7 +206,204 @@ export const products: Product[] = [
       
     ],
     occasion: ["New Year", "Birthday", "Corporate", "Family"]
-  }
+  },
+  {
+    id: "bookmark",
+    name: "bookmark",
+    price: "₹99",
+    priceValue:99,
+    category: "customised bookmark",
+    description: "bookmark of memories",
+    longDescription: "Start each day with a smile! Our custom photo calendars feature your favorite memories for each month, complete with important dates marked and personalized captions.",
+    features: [
+      "12 months of photos",
+      "Mark special dates",
+      "Desk or wall mount options",
+      "High-quality print",
+      "Personalized cover"
+    ],
+    images: [
+      "/products/bookmark.jpeg",
+      
+    ],
+    occasion: ["New Year", "Birthday", "Corporate", "Family"]
+  },
+  {
+    id: "flower",
+    name: "valentine flower",
+    price: "₹750",
+    priceValue:750,
+    category: "handmade bouquet",
+    description: "bookmark of memories",
+    longDescription: "Start each day with a smile! Our custom photo calendars feature your favorite memories for each month, complete with important dates marked and personalized captions.",
+    features: [
+      "12 months of photos",
+      "Mark special dates",
+      "Desk or wall mount options",
+      "High-quality print",
+      "Personalized cover"
+    ],
+    images: [
+      "/products/valentine.jpeg",
+      
+    ],
+    occasion: ["New Year", "Birthday", "Corporate", "Family"]
+  },
+  {
+    id: "flower",
+    name: "valentine flower",
+    price: "₹750",
+    priceValue:750,
+    category: "handmade bouquet",
+    description: "bookmark of memories",
+    longDescription: "Start each day with a smile! Our custom photo calendars feature your favorite memories for each month, complete with important dates marked and personalized captions.",
+    features: [
+      "12 months of photos",
+      "Mark special dates",
+      "Desk or wall mount options",
+      "High-quality print",
+      "Personalized cover"
+    ],
+    images: [
+      "/products/mom magazine.jpeg",
+      "/products/mom magz.jpeg",
+      "/products/mom magazine(2).jpeg",
+      
+    ],
+    occasion: ["New Year", "Birthday", "Corporate", "Family"]
+  },
+  {
+    id: "flower",
+    name: "valentine flower",
+    price: "₹750",
+    priceValue:750,
+    category: "handmade bouquet",
+    description: "bookmark of memories",
+    longDescription: "Start each day with a smile! Our custom photo calendars feature your favorite memories for each month, complete with important dates marked and personalized captions.",
+    features: [
+      "12 months of photos",
+      "Mark special dates",
+      "Desk or wall mount options",
+      "High-quality print",
+      "Personalized cover"
+    ],
+    images: [
+      "/products/col1.jpeg",
+      "/products/col2.jpeg",
+      "/products/col3.jpeg",
+      
+    ],
+    occasion: ["New Year", "Birthday", "Corporate", "Family"]
+  },
+  {
+    id: "flower",
+    name: "valentine flower",
+    price: "₹750",
+    priceValue:750,
+    category: "handmade bouquet",
+    description: "bookmark of memories",
+    longDescription: "Start each day with a smile! Our custom photo calendars feature your favorite memories for each month, complete with important dates marked and personalized captions.",
+    features: [
+      "12 months of photos",
+      "Mark special dates",
+      "Desk or wall mount options",
+      "High-quality print",
+      "Personalized cover"
+    ],
+    images: [
+      "/products/firstbday.jpeg",
+      
+    ],
+    occasion: ["New Year", "Birthday", "Corporate", "Family"]
+  },
+  {
+    id: "flower",
+    name: "valentine flower",
+    price: "₹750",
+    priceValue:750,
+    category: "handmade bouquet",
+    description: "bookmark of memories",
+    longDescription: "Start each day with a smile! Our custom photo calendars feature your favorite memories for each month, complete with important dates marked and personalized captions.",
+    features: [
+      "12 months of photos",
+      "Mark special dates",
+      "Desk or wall mount options",
+      "High-quality print",
+      "Personalized cover"
+    ],
+    images: [
+      "/products/flower +letter.jpeg",
+     
+      
+    ],
+    occasion: ["New Year", "Birthday", "Corporate", "Family"]
+  },
+  {
+    id: "flower",
+    name: "valentine flower",
+    price: "₹750",
+    priceValue:750,
+    category: "handmade bouquet",
+    description: "bookmark of memories",
+    longDescription: "Start each day with a smile! Our custom photo calendars feature your favorite memories for each month, complete with important dates marked and personalized captions.",
+    features: [
+      "12 months of photos",
+      "Mark special dates",
+      "Desk or wall mount options",
+      "High-quality print",
+      "Personalized cover"
+    ],
+    images: [
+      "/products/folwer card 2.jpeg",
+      
+      
+    ],
+    occasion: ["New Year", "Birthday", "Corporate", "Family"]
+  },
+  {
+    id: "flower",
+    name: "valentine flower",
+    price: "₹750",
+    priceValue:750,
+    category: "handmade bouquet",
+    description: "bookmark of memories",
+    longDescription: "Start each day with a smile! Our custom photo calendars feature your favorite memories for each month, complete with important dates marked and personalized captions.",
+    features: [
+      "12 months of photos",
+      "Mark special dates",
+      "Desk or wall mount options",
+      "High-quality print",
+      "Personalized cover"
+    ],
+    images: [
+      "/products/frame.jpeg",
+     
+      
+    ],
+    occasion: ["New Year", "Birthday", "Corporate", "Family"]
+  },
+{
+    id: "flower",
+    name: "valentine flower",
+    price: "₹750",
+    priceValue:750,
+    category: "handmade bouquet",
+    description: "bookmark of memories",
+    longDescription: "Start each day with a smile! Our custom photo calendars feature your favorite memories for each month, complete with important dates marked and personalized captions.",
+    features: [
+      "12 months of photos",
+      "Mark special dates",
+      "Desk or wall mount options",
+      "High-quality print",
+      "Personalized cover"
+    ],
+    images: [
+      "/products/flowerframe.jpeg",
+      
+      
+    ],
+    occasion: ["New Year", "Birthday", "Corporate", "Family"]
+  },
 ];
 
 
