@@ -76,7 +76,7 @@ const GiftFinder = () => {
     const message = encodeURIComponent(
       `Hi! I found "${productName}" through your Gift Finder and I'm interested in ordering it. Can you help me?`
     );
-    window.open(`https://wa.me/919876543210?text=${message}`, "_blank");
+    window.open(`https://wa.me/918178801635?text=${message}`, "_blank");
   };
 
   return (

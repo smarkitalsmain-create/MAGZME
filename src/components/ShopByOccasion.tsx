@@ -49,7 +49,7 @@ const occasions = [
 export const ShopByOccasion = () => {
   const handleOccasionClick = (occasionName: string) => {
     window.open(
-      `https://wa.me/919999999999?text=Hi! I'm looking for ${occasionName} gifts`,
+      `https://wa.me/918178801635?text=Hi! I'm looking for ${occasionName} gifts`,
       "_blank"
     );
   };
