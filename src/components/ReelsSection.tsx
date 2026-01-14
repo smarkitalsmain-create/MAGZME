@@ -5,27 +5,27 @@ import { Instagram, Play } from "lucide-react";
 const reels = [
   {
     id: 1,
-    thumbnail: "https://images.unsplash.com/photo-1513201099705-a9746e1e201f?w=300&h=500&fit=crop",
+    thumbnail: "products/ig.png",
     views: "12.5K"
   },
   {
     id: 2,
-    thumbnail: "https://images.unsplash.com/photo-1607344645866-009c320b63e0?w=300&h=500&fit=crop",
+    thumbnail: "products/ig2.png",
     views: "8.2K"
   },
   {
     id: 3,
-    thumbnail: "https://images.unsplash.com/photo-1487530811176-3780de880c2d?w=300&h=500&fit=crop",
+    thumbnail: "products/ig3.png",
     views: "15.3K"
   },
   {
     id: 4,
-    thumbnail: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=300&h=500&fit=crop",
+    thumbnail: "products/ig4.png",
     views: "9.7K"
   },
   {
     id: 5,
-    thumbnail: "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?w=300&h=500&fit=crop",
+    thumbnail: "products/ig5.png",
     views: "11.1K"
   }
 ];

@@ -15,66 +15,68 @@ const corporateProducts = [
   {
     id: "personalized-magazine",
     name: "Personalized Magazine",
-    price: "₹899",
-    bulkPrice: "₹699/piece",
+    price: "₹599",
+    bulkPrice: "starts at ₹299/piece",
     minOrder: 25,
     image: "/products/magazine1.jpg",
       
   },
+    {
+    id: "flower",
+    name: "flower pot",
+    price: "₹350",
+    bulkPrice: "starts at ₹249/piece",
+    minOrder: 25,
+    image: "/products/flower pot.jpg",
+      
+  },
   {
-    id: "custom-calendar",
-    name: "Custom Calendar",
-    price: "₹549",
-    bulkPrice: "₹399/piece",
+    id: "card",
+    name: "pen-card + chocolate",
+    price: "₹149",
+    bulkPrice: "starts ₹99/piece",
     minOrder: 50,
     image: "/products/c1.jpg",
       
   },
   {
-    id: "photo-memory-box",
-    name: "Photo Memory Box",
-    price: "₹799",
-    bulkPrice: "₹599/piece",
+    id: "pen ",
+    name: "Pen gift set",
+    price: "₹99",
+    bulkPrice: "starts at ₹79/piece",
     minOrder: 20,
     image: "/products/c2.jpg",
   },
   {
-    id: "polaroid-gift-set",
-    name: "Polaroid Gift Set",
-    price: "₹649",
-    bulkPrice: "₹449/piece",
+    id: "pen-gift-set",
+    name: "pen Gift Set",
+    price: "₹99",
+    bulkPrice: "starts at ₹79/piece",
     minOrder: 30,
     image: "/products/c3.jpg",
   },
   {
-    id: "polaroid-gift-set",
-    name: "Polaroid Gift Set",
-    price: "₹649",
-    bulkPrice: "₹449/piece",
+    id: "flower card",
+    name: "flower card",
+    price: "₹90",
+    bulkPrice: "starts at ₹49/piece",
     minOrder: 30,
     image: "/products/c4.jpeg",
   },
+ 
   {
-    id: "polaroid-gift-set",
-    name: "Polaroid Gift Set",
-    price: "₹649",
-    bulkPrice: "₹449/piece",
-    minOrder: 30,
-    image: "/products/c4.jpeg",
-  },
-  {
-    id: "polaroid-gift-set",
-    name: "Polaroid Gift Set",
-    price: "₹649",
-    bulkPrice: "₹449/piece",
+    id: "flower",
+    name: "crochet flower",
+    price: "₹199",
+    bulkPrice: "₹149/piece",
     minOrder: 30,
     image: "/products/c5.jpeg",
   },
   {
     id: "polaroid-gift-set",
-    name: "Polaroid Gift Set",
-    price: "₹649",
-    bulkPrice: "₹449/piece",
+    name: "crochet flower card",
+    price: "₹149",
+    bulkPrice: "₹99/piece",
     minOrder: 30,
     image: "/products/c6.jpeg",
   }
@@ -140,8 +142,8 @@ const CorporateBulkOrders = () => {
     message: ""
   });
 
-  const whatsappNumber = "919876543210";
-  const emailAddress = "corporate@magzme.in";
+  const whatsappNumber = "8178801635";
+  const emailAddress = "magz.me25@gmail.com";
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData(prev => ({
@@ -267,7 +269,7 @@ const CorporateBulkOrders = () => {
       </section>
       </AnimatedSection>
 
-      {/* Combo Packages */}
+      {/* 
       <AnimatedSection delay={0.1}>
         <section className="py-16 px-4 bg-muted/30">
           <div className="max-w-6xl mx-auto">
@@ -313,6 +315,7 @@ const CorporateBulkOrders = () => {
         </div>
       </section>
       </AnimatedSection>
+      */}
 
       {/* How to Order */}
       <AnimatedSection delay={0.1}>
@@ -358,7 +361,7 @@ const CorporateBulkOrders = () => {
                 
                 <div className="space-y-6">
                   <a 
-                    href={`https://wa.me/${whatsappNumber}`}
+                    href={`https://wa.me/${8178801635}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-4 bg-white/10 p-4 rounded-xl hover:bg-white/20 transition-colors"
@@ -366,7 +369,7 @@ const CorporateBulkOrders = () => {
                     <MessageCircle className="w-8 h-8" />
                     <div>
                       <p className="font-semibold">WhatsApp</p>
-                      <p className="opacity-80 text-sm">+91 98765 43210</p>
+                      <p className="opacity-80 text-sm">+91 8178801635</p>
                     </div>
                   </a>
                   
@@ -388,7 +391,7 @@ const CorporateBulkOrders = () => {
                     <Phone className="w-8 h-8" />
                     <div>
                       <p className="font-semibold">Phone</p>
-                      <p className="opacity-80 text-sm">+91 98765 43210</p>
+                      <p className="opacity-80 text-sm">+91 8178801635</p>
                     </div>
                   </a>
                 </div>

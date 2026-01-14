@@ -40,10 +40,11 @@ export const Navbar = () => {
 
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center gap-6">
-            <button 
+            <button  
               onClick={() => scrollTo("products")}
               className="font-body text-foreground hover:text-hot-pink transition-colors"
             >
+              
               Products
             </button>
             <button 

@@ -40,8 +40,8 @@ export const products: Product[] = [
     price: "₹750",
     priceValue: 750,
     category: "Flowers",
-    description: "Everlasting paper blooms",
-    longDescription: "Handcrafted with love, these beautiful paper flowers will never wilt. Each petal is carefully shaped and colored to create a stunning bouquet that captures the beauty of nature without the expiry date.",
+    description: "Everlasting  blooms",
+    longDescription: "Handcrafted with love, these beautiful pipe cleaner flowers will never wilt. Each petal is carefully shaped and colored to create a stunning bouquet that captures the beauty of nature without the expiry date.",
     features: [
       "Handmade with pipe cleaners",
       "Lasts forever ",
@@ -56,8 +56,8 @@ export const products: Product[] = [
     occasion: ["Birthday", "Anniversary", "Proposal", "Friendship" , "thank you",]
   },
   {
-    id: "flower-memory-cards",
-    name: "Flower Memory Cards",
+    id: "flower-cards",
+    name: "Flower Cards",
     price: "₹249",
     priceValue: 249,
     category: "Cards",
@@ -82,14 +82,14 @@ export const products: Product[] = [
     price: "₹999",
     priceValue: 999,
     category: "magazine",
-    description: "Treasure your moments",
-    longDescription: "A beautifully crafted memory box designed to hold your most treasured photographs and mementos. Open it up to reveal a cascade of memories, each one carefully preserved and presented.",
+    description: "Your story, your magazine",
+    longDescription: "Transform your precious memories into a stunning, professionally designed magazine. Each page tells a chapter of your unique story, filled with photos, messages, and heartfelt moments that will be cherished forever.",
     features: [
-      "Premium wooden box",
-      "Holds 50+ photos",
-      "Pull-out accordion design",
-      "Personalized cover",
-      "Hidden message compartment"
+      "8 pages of premium quality print",
+      "Fully customizable layouts",
+      "Glossy or matte finish options",
+      "Gift-ready packaging",
+      "Digital proof before printing"
     ],
     images: [
      "/products/bachmagz.jpeg",

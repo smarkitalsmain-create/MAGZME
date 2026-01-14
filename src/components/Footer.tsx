@@ -60,7 +60,7 @@ export const Footer = () => {
               Made with <Heart className="w-5 h-5 text-hot-pink fill-hot-pink animate-pulse" /> & memories
             </p>
             <p className="text-sm text-muted-foreground mt-2">
-              © 2024 MagzMe. All rights reserved.
+              © 2025 MagzMe. All rights reserved.
             </p>
           </div>
         </div>
