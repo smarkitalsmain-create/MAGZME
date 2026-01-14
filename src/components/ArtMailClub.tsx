@@ -29,7 +29,7 @@ const steps = [
 export const ArtMailClub = () => {
   const handleJoinClub = () => {
     window.open(
-      "https://wa.me/919999999999?text=Hi! I want to join the Art Mail Club!",
+      "https://wa.me/918178801635?text=Hi! I want to join the Art Mail Club!",
       "_blank"
     );
   };

@@ -33,7 +33,7 @@ const bulkCategories = [
 export const BulkOrders = () => {
   const openWhatsApp = (category: string) => {
     window.open(
-      `https://wa.me/919999999999?text=Hi! I'm interested in bulk orders for: ${category}`,
+      `https://wa.me/918178801635?text=Hi! I'm interested in bulk orders for: ${category}`,
       "_blank"
     );
   };

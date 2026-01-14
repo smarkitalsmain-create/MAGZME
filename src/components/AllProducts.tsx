@@ -52,7 +52,7 @@ export const AllProducts = () => {
 
   const openWhatsApp = (productName: string) => {
     window.open(
-      `https://wa.me/919999999999?text=${encodeURIComponent(`Hi! I'm interested in ordering: ${productName}`)}`,
+      `https://wa.me/918178801635?text=${encodeURIComponent(`Hi! I'm interested in ordering: ${productName}`)}`,
       "_blank"
     );
   };

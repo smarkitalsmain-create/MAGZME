@@ -6,7 +6,7 @@ import { StarSticker, SparkleSticker } from "./StickerIcons";
 export const Invitations = () => {
   const handleCreateInvitation = () => {
     window.open(
-      "https://wa.me/919999999999?text=Hi! I want to create a custom invitation",
+      "https://wa.me/918178801635?text=Hi! I want to create a custom invitation",
       "_blank"
     );
   };

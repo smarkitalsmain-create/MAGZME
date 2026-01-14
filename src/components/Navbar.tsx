@@ -11,7 +11,7 @@ export const Navbar = () => {
   const navigate = useNavigate();
 
   const openWhatsApp = () => {
-    window.open("https://wa.me/919999999999", "_blank");
+    window.open("https://wa.me/918178801635", "_blank");
   };
 
   const scrollTo = (id: string) => {

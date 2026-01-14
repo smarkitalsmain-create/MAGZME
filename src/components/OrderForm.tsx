@@ -27,7 +27,7 @@ export const OrderForm = ({ product }: OrderFormProps) => {
 
   const handleQuickOrder = () => {
     const text = `Hi! I'm interested in ordering: ${product.name} (${product.price})`;
-    window.open(`https://wa.me/919999999999?text=${encodeURIComponent(text)}`, "_blank");
+    window.open(`https://wa.me/918178801635?text=${encodeURIComponent(text)}`, "_blank");
   };
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -70,7 +70,7 @@ Occasion: ${formData.occasion.trim() || "Not specified"}
 ${formData.message.trim() || "No special instructions"}
     `.trim();
 
-    window.open(`https://wa.me/919999999999?text=${encodeURIComponent(message)}`, "_blank");
+    window.open(`https://wa.me/918178801635?text=${encodeURIComponent(message)}`, "_blank");
     
     toast({
       title: "Opening WhatsApp! 💬",

@@ -13,7 +13,7 @@ import { Gift, Mail } from "lucide-react";
 
 export const Hero = () => {
   const openWhatsApp = () => {
-    window.open("https://wa.me/919999999999?text=Hi! I'm interested in MagzMe products", "_blank");
+    window.open("https://wa.me/918178801635?text=Hi! I'm interested in MagzMe products", "_blank");
   };
 
   return (
