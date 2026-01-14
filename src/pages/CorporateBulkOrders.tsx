@@ -80,7 +80,7 @@ const corporateProducts = [
   }
 ];
 
-/*const comboPackages = [
+const comboPackages = [
   {
     name: "Employee Appreciation Combo",
     items: ["Personalized Magazine", "Flower Memory Cards", "Custom Calendar"],
@@ -106,7 +106,7 @@ const corporateProducts = [
     icon: Package
   }
 ];
-*/ 
+
 const howToOrderSteps = [
   {
     step: 1,
